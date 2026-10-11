@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc" data-background="#F7F3EA" data-foreground="#17202A">
+  <title id="title">David Lee — backend systems portfolio</title>
+  <desc id="desc">A restrained light banner introducing David Lee and his focus on RPC, concurrent systems, and governed AI workflows.</desc>
+  <rect width="1200" height="320" rx="24" fill="#F7F3EA"/>
+  <rect x="36" y="36" width="6" height="248" rx="3" fill="#A86B32"/>
+  <text x="78" y="108" fill="#17202A" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="56" font-weight="700" letter-spacing="1">DAVID LEE</text>
+  <text x="80" y="157" fill="#43505C" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="22">Java backend engineer · systems built to be inspected</text>
+  <line x1="80" y1="190" x2="656" y2="190" stroke="#C8B9A5" stroke-width="2"/>
+  <text x="80" y="230" fill="#17202A" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="18" font-weight="600" letter-spacing="1.5">RPC  ·  CONCURRENT SYSTEMS  ·  GOVERNED AI</text>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M795 163 H897 M935 163 H1037 M916 144 V95 M916 182 V231" stroke="#A86B32" stroke-width="3"/>
+    <circle cx="777" cy="163" r="18" fill="#17202A"/>
+    <circle cx="916" cy="163" r="19" fill="#F7F3EA" stroke="#17202A" stroke-width="4"/>
+    <circle cx="1055" cy="163" r="18" fill="#17202A"/>
+    <circle cx="916" cy="82" r="13" fill="#A86B32"/>
+    <circle cx="916" cy="244" r="13" fill="#A86B32"/>
+    <path d="M819 135 L854 102 M819 191 L854 224 M1013 135 L978 102 M1013 191 L978 224" stroke="#C8B9A5" stroke-width="2"/>
+    <circle cx="861" cy="95" r="8" fill="#43505C"/>
+    <circle cx="861" cy="231" r="8" fill="#43505C"/>
+    <circle cx="971" cy="95" r="8" fill="#43505C"/>
+    <circle cx="971" cy="231" r="8" fill="#43505C"/>
+  </g>
+</svg>
