@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" data-background="#F7F5F0" data-foreground="#20352D" aria-labelledby="title desc">
 <title id="title">David Lee — Smart Home Edge Computing System</title><desc id="desc">Independent systems research connecting management, communication, logic, traffic profiling and scheduling.</desc>
 <rect width="1200" height="430" rx="20" fill="#F7F5F0"/>
 <g font-family="Arial, Helvetica, sans-serif"><text x="56" y="67" font-size="17" letter-spacing="3" fill="#59695D">DAVID LEE / INDEPENDENT RESEARCH</text>
