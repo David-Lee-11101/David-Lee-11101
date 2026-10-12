@@ -4,27 +4,27 @@
   <img alt="David Lee — independent research in smart home edge computing" src="./assets/hero-light.svg" width="100%">
 </picture>
 
-I study how smart home automation can make communication, rule reasoning, traffic observation, concurrent scheduling, and service management work together at the edge.
+I build Java systems for networked automation and independent research in smart home edge computing. My work connects bounded RPC transport, typed computation graphs, traffic-shape profiling, concurrent scheduling, and service lifecycle management.
 
 ## Smart Home Edge Computing System
 
-[System hub](https://github.com/David-Lee-11101/SmartHome-Edge-Computing-System) · [System documentation](https://github.com/David-Lee-11101/SmartHome-Edge-Computing-System/tree/main/docs)
+[System hub](https://github.com/David-Lee-11101/SmartHome-Edge-Computing-System) · [Architecture and causal integration](https://github.com/David-Lee-11101/SmartHome-Edge-Computing-System/blob/main/docs/RUNNER.md)
 
-The portfolio is organized as one research system with five components. Repository demonstrations and tests establish bounded software behavior; they do not establish deployment readiness or reproduce unavailable historical experiments.
+Five components form one engineering system: Management brings providers into service, Logic builds typed invocations, Communication carries calls, Profiling supplies traffic-shape evidence, and the Scheduler authorizes execution.
 
 | Component | Role in the system |
 | --- | --- |
-| [Communication](https://github.com/David-Lee-11101/Smart-Home-Communication) | RPC transport, service discovery, request correlation, and observable service calls |
-| [Logic Engine](https://github.com/David-Lee-11101/SmartHome-Logic-Engine) | Rule analysis, conflict and dependency reasoning, and action invocation |
-| [Traffic Profiling](https://github.com/David-Lee-11101/SmartHome-Traffic-Profiling) | Traffic-derived features and trace evidence for automation research |
-| [ThreadSafe Scheduler](https://github.com/David-Lee-11101/SmartHome-ThreadSafe-Scheduler) | Concurrent rule scheduling and explicit execution decisions |
-| [Integrated Logic Management](https://github.com/David-Lee-11101/SmartHome-Integrated-Logic-Management) | Rule composition, service generation, lifecycle management, and operator tooling |
+| [Communication](https://github.com/David-Lee-11101/Smart-Home-Communication) | Lightweight Netty RPC with bounded calls, request correlation, and payload-free encoded-frame telemetry |
+| [Logic Engine](https://github.com/David-Lee-11101/SmartHome-Logic-Engine) | Typed service invocation and calculation graphs: local catalogs, signatures, arithmetic, and record-field selection |
+| [Traffic Profiling](https://github.com/David-Lee-11101/SmartHome-Traffic-Profiling) | Direction/encoded-length medoids and edit-distance classification of known, anomalous, ambiguous, and unknown traces |
+| [ThreadSafe Scheduler](https://github.com/David-Lee-11101/SmartHome-ThreadSafe-Scheduler) | Evidence-based execution decisions persisted before actions, ordered resource locks, and owned cooperative cancellation |
+| [Integrated Logic Management](https://github.com/David-Lee-11101/SmartHome-Integrated-Logic-Management) | Local definitions, template generation, provider lifecycle management, and independent state/evidence readback |
 
-The service generator belongs to Integrated Logic Management; its historical repository remains available for provenance. The hub is the place to check integration instructions, revision pins, evidence, and current limitations. Measurements require an identified environment and reproducible inputs; no portfolio-wide speed or accuracy claims are made here.
+The service generator belongs to Integrated Logic Management; its historical repository preserves the development record. The [system runner](https://github.com/David-Lee-11101/SmartHome-Edge-Computing-System/blob/main/docs/RUNNER.md) documents the causal path from a generated provider through invocation, profiling, a persisted scheduling decision, and independent state readback, with revision pins and reproducible verification.
 
 ## Agent governance research
 
-[Imperium](https://github.com/David-Lee-11101/Imperium) contains a Java and React workflow MVP. **Senate-Agent-Orchestration** is the proposed descriptive identity for its future Roman Senate inspired multiagent framework. Deliberation, veto review, execution authority, recovery, and audit are the research questions; the current code is an incomplete foundation. See its [proposal and boundaries](https://github.com/David-Lee-11101/Imperium/blob/continuation/portfolio-20261012/docs/SENATE_PROPOSAL.md) on the documentation candidate branch.
+[Senate-Agent-Orchestration](https://github.com/David-Lee-11101/Senate-Agent-Orchestration) explores a Roman Senate inspired framework for deliberation, veto review, execution authority, recovery, and audit. Its Java and React workflow MVP is an incomplete foundation for that framework. The [proposal and boundaries](https://github.com/David-Lee-11101/Senate-Agent-Orchestration/blob/main/docs/SENATE_PROPOSAL.md) distinguish implemented workflow pieces from planned multiagent coordination.
 
 ## How I work
 
@@ -35,4 +35,4 @@ The service generator belongs to Integrated Logic Management; its historical rep
 
 Public visibility does not grant a general reuse license. Repository-specific notices and third-party licenses govern their respective content.
 
-I also maintain a [personal oh-my-codex fork](https://github.com/David-Lee-11101/oh-my-codex) for study. Upstream authorship belongs to [oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex).
+I also maintain a [personal oh-my-codex fork](https://github.com/David-Lee-11101/oh-my-codex) for tooling exploration. Upstream authorship belongs to [oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex).
