@@ -1,41 +1,38 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img alt="David Lee — Java backend engineer building RPC frameworks and concurrent systems" src="./assets/hero-light.svg" width="100%">
+  <img alt="David Lee — independent research in smart home edge computing" src="./assets/hero-light.svg" width="100%">
 </picture>
 
-I build backend systems close to the infrastructure boundary: network transport, request correlation, service discovery, concurrent scheduling, rule analysis, recovery, and the tooling required to make those systems inspectable.
+I study how smart home automation can make communication, rule reasoning, traffic observation, concurrent scheduling, and service management work together at the edge.
 
-My current portfolio is organized around three engineering threads.
+## Smart Home Edge Computing System
 
-## Selected engineering
+[System hub](https://github.com/David-Lee-11101/SmartHome-Edge-Computing-System) · [System documentation](https://github.com/David-Lee-11101/SmartHome-Edge-Computing-System/tree/main/docs)
 
-### [Handwritten Netty RPC](https://github.com/David-Lee-11101/Handwritten-Netty-RPC)
+The portfolio is organized as one research system with five components. Repository demonstrations and tests establish bounded software behavior; they do not establish deployment readiness or reproduce unavailable historical experiments.
 
-A compact Java RPC framework built from first principles with Netty, dynamic proxies, reflection-based invocation, request correlation, deadlines, reconnect behavior, and explicit channel lifecycle management. The project is designed to make transport and failure semantics easy to inspect.
+| Component | Role in the system |
+| --- | --- |
+| [Communication](https://github.com/David-Lee-11101/Smart-Home-Communication) | RPC transport, service discovery, request correlation, and observable service calls |
+| [Logic Engine](https://github.com/David-Lee-11101/SmartHome-Logic-Engine) | Rule analysis, conflict and dependency reasoning, and action invocation |
+| [Traffic Profiling](https://github.com/David-Lee-11101/SmartHome-Traffic-Profiling) | Traffic-derived features and trace evidence for automation research |
+| [ThreadSafe Scheduler](https://github.com/David-Lee-11101/SmartHome-ThreadSafe-Scheduler) | Concurrent rule scheduling and explicit execution decisions |
+| [Integrated Logic Management](https://github.com/David-Lee-11101/SmartHome-Integrated-Logic-Management) | Rule composition, service generation, lifecycle management, and operator tooling |
 
-### [SmartService Discovery RPC](https://github.com/David-Lee-11101/SmartService-Discovery-RPC)
+The service generator belongs to Integrated Logic Management; its historical repository remains available for provenance. The hub is the place to check integration instructions, revision pins, evidence, and current limitations. Measurements require an identified environment and reproducible inputs; no portfolio-wide speed or accuracy claims are made here.
 
-The public anchor for a multi-repository IoT automation series. Its Java modules cover service contracts, ZooKeeper registration and discovery, Netty transport, provider exposure, and consumer-side proxies.
+## Agent governance research
 
-The surrounding suite explores distinct parts of the same problem:
+[Imperium](https://github.com/David-Lee-11101/Imperium) contains a Java and React workflow MVP. **Senate-Agent-Orchestration** is the proposed descriptive identity for its future Roman Senate inspired multiagent framework. Deliberation, veto review, execution authority, recovery, and audit are the research questions; the current code is an incomplete foundation. See its [proposal and boundaries](https://github.com/David-Lee-11101/Imperium/blob/continuation/portfolio-20261012/docs/SENATE_PROPOSAL.md) on the documentation candidate branch.
 
-- [SmartRule Concurrency Scheduler](https://github.com/David-Lee-11101/SmartRule-Concurrency-Scheduler) — deterministic concurrent rule scheduling and action-arrival simulation.
-- [SmartRule Conflict Analyzer](https://github.com/David-Lee-11101/SmartRule-Conflict-Analyzer) — reproducible rule conflict, dependency, and Apriori research.
-- [SmartService Automate Generator](https://github.com/David-Lee-11101/SmartService-Automate-Generator) — service scaffolding and code-generation experiments.
-- [SmartRule Automate Composer](https://github.com/David-Lee-11101/SmartRule-Automate-Composer) — visual rule composition and automation-toolchain research.
-
-### [Imperium](https://github.com/David-Lee-11101/Imperium)
-
-An experimental governed-agent workflow MVP built with Java 21, Spring Boot, React, MySQL, and event-driven workers. It represents deliberation, veto review, human approval, delegated execution, recovery, audit, and archive stages as explicit workflow state.
-
-## Engineering principles
+## How I work
 
 - Make failure behavior and lifecycle ownership explicit.
-- Prefer reproducible demonstrations over unsupported performance claims.
-- Keep architecture visible through small examples, diagrams, and tests.
-- Treat experimental software honestly while improving it toward reliable systems.
+- Preserve experimental provenance and distinguish new tests from historical results.
+- Keep architecture inspectable through small demonstrations and reviewable evidence.
+- Treat privacy and rights as part of research publication.
 
-## Open-source study
+Public visibility does not grant a general reuse license. Repository-specific notices and third-party licenses govern their respective content.
 
-I maintain a [personal fork of oh-my-codex](https://github.com/David-Lee-11101/oh-my-codex) for local study and experimentation. The original project and authorship belong to the [upstream repository](https://github.com/Yeachan-Heo/oh-my-codex).
+I also maintain a [personal oh-my-codex fork](https://github.com/David-Lee-11101/oh-my-codex) for study. Upstream authorship belongs to [oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex).
