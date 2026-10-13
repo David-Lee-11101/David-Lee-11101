@@ -22,8 +22,8 @@
 <text x="200" y="395" font-size="18" fill="#34485c">Scheduler</text>
 <path d="M200 414 V432" fill="none" stroke="#496b85" stroke-width="2" marker-end="url(#arrow)"/>
 <rect x="30" y="436" width="340" height="70" rx="8" fill="#f3f6f9" stroke="#496b85" stroke-width="1.5"/>
-<text x="200" y="464" font-size="21" font-weight="700">Authorized action</text>
-<text x="200" y="489" font-size="18" fill="#34485c">Communication</text>
+<text x="200" y="464" font-size="21" font-weight="700">Provider action</text>
+<text x="200" y="489" font-size="18" fill="#34485c">via Logic + Communication</text>
 <path d="M200 508 V526" fill="none" stroke="#496b85" stroke-width="2" marker-end="url(#arrow)"/>
 <rect x="30" y="530" width="340" height="70" rx="8" fill="#f3f6f9" stroke="#496b85" stroke-width="1.5"/>
 <text x="200" y="558" font-size="21" font-weight="700">Feedback + readback</text>

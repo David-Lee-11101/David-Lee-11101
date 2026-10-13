@@ -4,16 +4,16 @@ I build Java backend systems for networked automation and conduct independent re
 
 ## Technical focus
 
-My professional skills cover these foundations; the projects below show how I apply them.
+My professional background covers the foundations below. Selected project work follows, with links to its implementation and verification scope.
 
 | Area | Focus |
 | --- | --- |
 | Java & JVM | Object-oriented programming, collections, reflection, class loading, runtime memory, and garbage collection |
 | Concurrency | JUC, thread lifecycle, the Java Memory Model, locks, and concurrent collections |
 | Service design | DDD layering, design patterns, encapsulation, and dependency inversion |
-| Spring & MyBatis | IoC, AOP, bean lifecycle, annotation configuration, transaction propagation, and persistence mapping |
+| Spring & MyBatis | IoC, AOP, bean lifecycle, annotation configuration, transaction propagation, nested transactions, and persistence mapping |
 | MySQL | InnoDB indexes, transactions, locking, and logs |
-| Redis & ZooKeeper | Redis data structures and distributed locks; ZooKeeper data model and consistency |
+| Redis & ZooKeeper | Redis threading model, data structures, and distributed locks; ZooKeeper data model and consistency |
 | Networks & operating systems | Network layers, processes and threads, memory management, and scheduling |
 
 ## Smart Home Edge Computing System
